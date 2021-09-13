@@ -33,7 +33,7 @@ async def on_message(message):
     
     if message.content.startswith('*'):
     	m = message.content
-    	st = os.listdir('/home/tridot/Documents/projects/dispal')
+    	st = os.listdir()
     	fst = listToString(st)
     	filename = m[1:]+".webp"
     	if filename not in fst:
